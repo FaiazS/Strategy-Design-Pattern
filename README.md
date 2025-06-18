@@ -20,6 +20,7 @@ This project mimics that behavior using:
 
 ## 📦 Project Structure
 
+```bash
 com.scaler.StrategyDesignPattern/
 ├── PathFindingAlgorithm.java        # Strategy interface
 ├── WalkPathFindingAlgorithm.java   # Strategy 1
