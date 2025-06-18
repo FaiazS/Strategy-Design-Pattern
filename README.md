@@ -18,6 +18,17 @@ This project mimics that behavior using:
 
 ---
 
+🧠 Design Patterns Used
+
+✅ Strategy Pattern:
+
+Encapsulates a family of algorithms and makes them interchangeable. Each algorithm (walk, bike, car) implements a common interface.
+
+✅ Factory Pattern:
+
+Selects and provides the correct strategy instance based on the transport mode. Keeps strategy selection logic separate from the usage.
+
+---
 ## 📦 Project Structure
 
 ```bash
@@ -29,14 +40,3 @@ com.scaler.StrategyDesignPattern/
 ├── PathNavigatorFactory.java       # Factory to choose strategy
 ├── PathNavigator.java              # Context that uses strategies
 └── TransportMode.java              # Enum to represent transport modes
-
----
-🧠 Design Patterns Used
-
-✅ Strategy Pattern:
-
-Encapsulates a family of algorithms and makes them interchangeable. Each algorithm (walk, bike, car) implements a common interface.
-
-✅ Factory Pattern:
-
-Selects and provides the correct strategy instance based on the transport mode. Keeps strategy selection logic separate from the usage.
